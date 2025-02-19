@@ -43,7 +43,7 @@ func WordBreak(s string, w []string) bool {
 
 func main() {
 	for {
-		fmt.Print("THe string to split: ")
+		fmt.Print("The string to split: ")
 		var str string
 		fmt.Scan(&str)
 		if str == "q" || str == "Q" {
