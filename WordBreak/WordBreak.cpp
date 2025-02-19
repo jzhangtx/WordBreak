@@ -55,9 +55,6 @@ bool WordInSet(const std::string& s, size_t& i, const std::unordered_set<std::st
         }
     }
 
-    if (s.size() < maxLength)
-        return false;
-
     for (size_t j = 1; j <= maxLength && i+j <= s.size(); ++j)
     {
         std::string sub = s.substr(i, j);
